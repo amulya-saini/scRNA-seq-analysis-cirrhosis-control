@@ -1,19 +1,15 @@
 # scRNA-seq-analysis-cirrhosis-control
 
 Cirrhosis is a chronic liver disease that results from various etiologies, including viral
-infections, alcohol abuse, and nonalcoholic steatohepatitis. The disease is charac-
-terized by the formation of fibrous scar tissue within the liver. This fibrosis is a sig-
-nificant contributor to liver damage and complications associated with the disease,
+infections, alcohol abuse, and nonalcoholic steatohepatitis. The disease is characterized by the formation of fibrous scar tissue within the liver. This fibrosis is a significant contributor to liver damage and complications associated with the disease,
 ultimately leading to Hepatocellular carcinoma (HCC). Single cell RNA sequencing
 provides a valuable tool to study the gene expression patterns at a single cell level.
 In this study, I aimed to compare the gene expression levels of established cirrhosis
-and fibrosis markers between cirrhotic and normal cell samples using publicly avail-
-able scRNA seq data from the GEO database. I have analyzed the obtained data
+and fibrosis markers between cirrhotic and normal cell samples using publicly available scRNA seq data from the GEO database. I have analyzed the obtained data
 using the Seurat R package. After quality control, normalization, and other standard
 analysis steps. The cluster cell types were annotated both manually using the
 PanglaoDB, which includes data from various species, tissues, and cell types and
-by using SingleR package, which provides a set of built-in references. The discrep-
-ancies in the annotations are viewed.
+by using SingleR package, which provides a set of built-in references. The discrepancies in the annotations are viewed.
 
 
 The single cell transcriptomic data was obtained from GEO
